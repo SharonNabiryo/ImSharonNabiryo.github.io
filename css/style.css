@@ -695,11 +695,13 @@ button#pills-contact-tab {
 
 .contact form button:hover {
   color: #fff;
+  border-radius: 10px;
 }
 
 .contact form button::before {
   content: "";
   background: #121212;
+  color: white;
   width: 0;
   height: 100%;
   position: absolute;
